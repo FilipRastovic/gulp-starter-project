@@ -1,0 +1,23 @@
+/* All button styles */
+.btn {
+    
+
+    &:hover {
+        
+        
+    }
+
+    &--hero-cta {
+        animation: moveInRight 1s ease-out;
+    }
+
+    &--radius {
+        
+    }
+    
+    @include respond(phone) {
+
+    }
+
+}
+

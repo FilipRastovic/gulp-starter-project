@@ -1,0 +1,63 @@
+body {
+	
+	line-height: 1.7;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.heading-primary {
+    
+	
+	&--main {
+		
+		
+		@include respond(phone) {
+       
+        }
+	}
+
+	&--sub {
+	
+
+        @include respond(phone) {
+           
+        }
+	}
+}
+
+.heading-secondary {
+	
+    
+    &--less-margin {
+        
+    }
+	
+	@include respond(tab-port) {
+        
+    }
+
+    @include respond(phone) {
+        
+    }
+}
+
+.heading-tertiary {
+
+}
+
+.paragraph {
+   
+
+    @include respond(phone) {
+  
+    }
+    
+
+    &--hero {
+
+
+        @include respond(phone) {
+  
+        }
+    }
+}
